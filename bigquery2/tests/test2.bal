@@ -5,8 +5,8 @@ import ballerina/time;
 import ballerina/internal;
 
 @test:Config
-function testListProjects() {
-    io:println("-----------------Test case for listProjects method------------------");
+function testGenerateAccessToken() {
+    io:println("-----------------Test case for generate access token method------------------");
     internal:JwtHeader header = {};
     header.alg = "RS256";
     header.typ = "JWT";
